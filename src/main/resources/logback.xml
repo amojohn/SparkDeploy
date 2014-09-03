@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="60 seconds" debug="false">
+	<contextName>kunlun.collector</contextName>
+	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder charset="GBK">
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n%caller{2}</pattern>
+		</encoder>
+	</appender>
+	<root level="WARN">
+		<appender-ref ref="stdout" />
+	</root>
+	<logger name="com.hansight" level="DEBUG" />
+</configuration>
+
+

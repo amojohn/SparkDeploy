@@ -1,6 +1,11 @@
 *.class
 *.log
 
+.settings/
+.classpath
+.project
+install/
+
 # sbt specific
 .cache/
 .history/
@@ -28,7 +33,8 @@ project/plugins/project/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
